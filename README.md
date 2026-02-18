@@ -1,16 +1,44 @@
-# React + Vite
+# WeatherAppCy 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **Weather Application** built with **React** and **Vite** that allows users to check real-time weather information for any city.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://weather-app-cy.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Installation
 
-## React Compiler
+Follow the steps below to set up the project locally.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📥 Clone the Repository
 
-## Expanding the ESLint configuration
+```bash
+git clone https://github.com/arjun-shettigar1605/WeatherAppCy.git
+cd WeatherAppCy
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📦 Install Dependencies
+
+```bash
+npm install
+```
+
+### 🔑 Add Weather API Key
+
+Create a `.env` file in the root directory and add:
+
+```env
+VITE_WEATHER_API_KEY=your_api_key_here
+```
+
+### ▶️ Run the Application
+
+```bash
+npm run dev
+```
+
+### 🌐 Open in Browser
+
+Open your browser and visit:
+
+```
+http://localhost:5173
+```
